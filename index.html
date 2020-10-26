@@ -15,12 +15,14 @@
 <body>
 
     <header>
-        <h1>Alex's Guest Book</h1>
+        <h1>Guestbook</h1>
     </header>
     <form>
-        <input type="text" class="guest-input">
+        <label for="name">Full name:</label>
+        <input type="text" class="guest-input" name="name">
 
-        <textarea class="guest-text" rows="5"></textarea>
+        <label for="message">Message:</label>
+        <textarea class="guest-text" name="message" rows="5"></textarea>
 
         <button class="guest-button" type="submit">Submit</button>
     </form>
