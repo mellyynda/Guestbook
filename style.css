@@ -593,8 +593,9 @@ header {
 /* Form */
 
 form {
-    width: 30%;
+    width: 95%;
     margin: 0 auto;
+    max-width: 400px;
     min-height: 30vh;
     display: flex;
     flex-direction: column;
