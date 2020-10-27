@@ -42,7 +42,7 @@ function date(){
         ss = `0${ss}`;
     }
     
-    today = `${dd}/${m}/${yyyy} ${hh}-${mm}-${ss}`;
+    today = `${dd}/${m}/${yyyy} ${hh}:${mm}`;
 
     return today;
 }
