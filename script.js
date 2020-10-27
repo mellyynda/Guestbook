@@ -3,11 +3,12 @@ const guestInput = document.querySelector('.guest-input');
 const guestText = document.querySelector('.guest-text');
 const guestButton = document.querySelector('.guest-button');
 const guestContainer = document.querySelector('.guest-container');
+const addGuestForm = document.querySelector('form');
 
 
 // Event Listeners
 document.addEventListener('DOMContentLoaded', getTodos);
-guestButton.addEventListener('click', addGuest);
+addGuestForm.addEventListener('submit', addGuest);
 guestContainer.addEventListener('click', deleteCheck);
 
 
